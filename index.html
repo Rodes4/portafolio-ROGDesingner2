@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Diseño Gráfico - ROGdesigner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-poppins bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 shadow-lg fixed w-full z-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <img src="img/logo_rog2.png" alt="LogoMaster Logo" class="h-10 w-10 mr-2">
+                    <h1 class="text-2xl font-bold text-white">ROG designer</h1>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#home" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Inicio</a>
+                    <a href="#portfolio" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Portafolio</a>
+                    <a href="#about" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Sobre Mí</a>
+                    <a href="#contact" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Contacto</a>
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="md:hidden flex items-center">
+                    <button id="menu-toggle" class="text-gray-600 hover:text-indigo-600 focus:outline-none">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 shadow-lg">
+            <div class="flex flex-col items-center space-y-4 py-4">
+                <a href="#home" class="text-gray-100 hover:bg-indigo-600 w-full text-center py-2 text-lg">Inicio</a>
+                <a href="#portfolio" class="text-gray-100 hover:bg-indigo-600 w-full text-center px-3 py-2 text-lg">Portafolio</a>
+                <a href="#about" class="text-gray-100 hover:bg-indigo-600 w-full text-center px-3 py-2 text-lg">Sobre Mí</a>
+                <a href="#contact" class="text-gray-100 hover:bg-indigo-600 w-full text-center px-3 py-2 text-lg">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-500 to-purple-600 overflow-hidden">
+        <!-- Imagen delante del fondo pero detrás del texto -->
+        <img src="img/port_logos3.png" alt="Imagen decorativa" class="absolute inset-0 w-full h-[85%] object-cover md:object-fill opacity-30 z-0 pointer-events-none mt-20"/>
+        <div class="relative z-10 text-center max-w-3xl mx-auto px-4">
+          <h1 class="text-4xl text-indigo-950 md:text-6xl font-bold mb-4">Diseño de Logos que Transforman Marcas</h1>
+          <p class="text-lg font-semibold text-black md:text-xl mb-6">Creando identidades visuales únicas que conectan con tu audiencia y elevan tu marca.</p>
+          <a href="#portfolio" class="inline-block bg-white text-indigo-600 font-semibold py-3 px-6 rounded-full hover:bg-amber-300 transition">
+            Ver Portafolio
+          </a>
+        </div>
+      </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Portafolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Portfolio Item -->
+                <a href="portafolio.html"><div class="group relative overflow-hidden rounded-lg shadow-lg">
+                    <img src="img/logos-creativos.jpg" alt="Logo Proyecto 1" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <div class="text-center text-white">
+                            <h3 class="text-xl font-semibold">Diseño de Logotipos</h3>
+                            <p class="text-sm">Diseño Logos para marcas, redes sociales, empresas ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-2xl font-semibold flex justify-center mt-4">
+                    LOGOS
+                </div></a>
+
+                <a href="branding..html"><div class="group relative overflow-hidden rounded-lg shadow-lg">
+                    <img src="img/brand_5456.jpg" alt="Logo Proyecto 2" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <div class="text-center text-white">
+                            <h3 class="text-xl font-semibold">Branding</h3>
+                            <p class="text-sm">Puedo ayudarte a crear tu identidad de marca</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-2xl font-semibold flex justify-center mt-4">
+                    BRANDING
+                </div></a>
+
+                <a href="fotoedit.html"><div class="group relative overflow-hidden rounded-lg shadow-lg">
+                    <img src="img/edit foto.webp" alt="Logo Proyecto 3" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <div class="text-center text-white">
+                            <h3 class="text-xl font-semibold">Edición Fotografica</h3>
+                            <p class="text-sm">Montajes, carteleria, portadas, correccion fotografica ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-2xl font-semibold flex justify-center mt-4">
+                    FOTOEDICION
+                </div></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="img/foto_yo.png" alt="Diseñador" class="rounded-full w-64 h-64 mx-auto object-cover">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Sobre Mí</h2>
+                    <p class="text-lg mb-4">Soy un diseñador gráfico con más de 2 años de experiencia especializado en la creación de logos e identidades corporativas que capturan la esencia de cada marca. Mi enfoque es combinar creatividad con estrategia para entregar resultados que no solo se ven increíbles, sino que también conectan con el público objetivo.</p>
+                    <p class="text-lg">He trabajado con startups, pequeñas empresas y creadores de conrtenido, ayudándolas a destacar en mercados competitivos.</p>
+                    <a href="sobre mi.html"><div class="bg-blue-700 text-white text-2x1 font-bold mt-4 p-2 w-36 flex justify-center rounded-full hover:bg-blue-600">
+                        Más detalles
+                    </div></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-indigo-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">¡Hagamos algo increíble juntos!</h2>
+            <p class="text-lg mb-8">Contáctame para discutir tu próximo proyecto de branding.</p>
+            <div class="flex justify-center space-x-4 mb-8">
+                <a href="mailto:rogelito870704@gmail.com" class="bg-white text-indigo-600 font-semibold py-3 px-6 rounded-full hover:bg-amber-300 transition">
+                Enviar Email</a>
+                <a href="https://www.behance.net/yourprofile" target="_blank" class="bg-white text-indigo-600 font-semibold py-3 px-6 rounded-full hover:bg-amber-300 transition">
+                Ver Behance</a>
+            </div>
+            <div class="flex justify-center space-x-6">
+                <a href="https://wa.me/5356790025" target="_blank" class="text-white hover:text-green-300 transition">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+                <a href="https://t.me/RogDesigner" target="_blank" class="text-white hover:text-blue-400 transition">
+                    <i class="fab fa-telegram-plane fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com/rogdesin7/" target="_blank" class="text-white hover:text-amber-300 transition">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://pin.it/4AuWveltN" target="_blank" class="text-white hover:text-red-300 transition">
+                    <i class="fab fa-pinterest fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>© 2025 ROG designer. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

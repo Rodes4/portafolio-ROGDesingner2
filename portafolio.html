@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - ROGdesigner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-poppins bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 shadow-lg fixed w-full z-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <img src="img/logo_rog2.png" alt="LogoMaster Logo" class="h-10 w-10 mr-2">
+                    <h1 class="text-2xl font-bold text-white">ROG designer</h1>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Inicio</a>
+                    <a href="index.html#portfolio" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Portafolio</a>
+                    <a href="sobre mi.html" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Sobre Mí</a>
+                    <a href="#contact" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Contacto</a>
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="md:hidden flex items-center">
+                    <button id="menu-toggle" class="text-gray-600 hover:text-indigo-600 focus:outline-none">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 shadow-lg">
+            <div class="flex flex-col items-center space-y-4 py-4">
+                <a href="index.html#home" class="text-gray-100 hover:bg-indigo-600 w-full text-center py-2 text-lg">Inicio</a>
+                <a href="index.html#portfolio" class="text-gray-100 hover:bg-indigo-600 w-full text-center px-3 py-2 text-lg">Portafolio</a>
+                <a href="sobre mi.html" class="text-gray-100 hover:bg-indigo-600 w-full text-center px-3 py-2 text-lg">Sobre Mí</a>
+                <a href="#contact" class="text-gray-100 hover:bg-indigo-600 w-full text-center px-3 py-2 text-lg">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Tree -->
+    <section class="pt-20 pb-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Back Button -->
+            <a href="index.html#portfolio" class="inline-block text-indigo-600 hover:text-indigo-800 font-semibold mb-8 flex items-center">
+                <i class="fas fa-arrow-left mr-2"></i> Volver al Portafolio
+            </a>
+            <!-- Project Header -->
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tree - Grupo de Desarrollo de Software</h1>
+            <p class="text-lg text-gray-600 mb-8">Logotipo para proyecto de desarrollo de software</p>
+            <!-- Main Project Image -->
+          <div class="flex justify-center">
+            <img src="img/tree_dark.png" alt="Logo Proyecto 1" class="w-1/3 h-1/3 rounded-lg shadow-lg mb-12">
+          </div>
+            <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Participación en el Proyecto "Tree"</h2>
+                    <p class="text-lg text-gray-600 mb-4">
+                        En marzo de 2024, colaboré como diseñador gráfico en el proyecto de desarrollo de software Tree. Fui responsable de crear el logotipo 
+                        y la identidad visual corporativa de la empresa, asegurando una imagen coherente, moderna y memorable. Además, brindé apoyo al área de marketing,
+                        diseñando portadas publicitarias y materiales gráficos para campañas y presentaciones. </p>
+                    <p class="text-lg text-gray-600">
+                        Esta experiencia me permitió aportar creatividad y visión estratégica al posicionamiento de la marca, 
+                        trabajando en equipo con profesionales de distintas áreas para lograr una comunicación visual efectiva y alineada con los objetivos del proyecto.                    </p>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                    <ul class="text-lg text-gray-600 space-y-2">
+                        <li><span class="font-semibold">Cliente:</span> Tree</li>
+                        <li><span class="font-semibold">Fecha:</span> Marzo, 2024</li>
+                        <li><span class="font-semibold">Servicios:</span> Diseño de logo, Identidad corporativa, Marketing</li>
+                        <li><span class="font-semibold">Herramientas:</span> Adobe Illustrator, Photoshop</li>
+                    </ul>
+                    <a href="branding..html#brand1" class="mt-4 text-indigo-600 hover:text-indigo-800 font-semibold mb-8 flex items-center">
+                         Ir al barnding del proyecto <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Carousel Section -->
+            <div class="mt-12">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6">Galería del Proyecto</h2>
+                <div class="relative w-full max-w-2xl h-96 mx-auto">
+                    <!-- Carousel Wrapper -->
+                    <div class="overflow-hidden relative rounded-lg shadow-lg">
+                        <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
+                            <img src="img/portada_tree_INT.jpg" alt="Logo Variation 1" class="w-full h-96 object-contain flex-shrink-0">
+                            <img src="img/portada_tree2_INT.webp" alt="Logo Variation 2" class="w-full h-96 object-contain flex-shrink-0">
+                            <img src="img/tree_web y cata2.jpg" alt="Branding Application" class="w-full h-96 object-contain flex-shrink-0">
+                            <img src="img/esquema molecular.jpg" alt="Logo Mockup" class="w-full h-96 object-contain flex-shrink-0">
+                        </div>
+                    </div>
+                    <!-- Navigation Buttons -->
+                    <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-indigo-600 text-white p-3 rounded-full hover:bg-indigo-700 focus:outline-none">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-indigo-600 text-white p-3 rounded-full hover:bg-indigo-700 focus:outline-none">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <!-- Dots -->
+                    <div id="dots" class="flex justify-center space-x-2 mt-4">
+                        <span class="w-3 h-3 bg-indigo-600 rounded-full cursor-pointer"></span>
+                        <span class="w-3 h-3 bg-gray-400 rounded-full cursor-pointer"></span>
+                        <span class="w-3 h-3 bg-gray-400 rounded-full cursor-pointer"></span>
+                        <span class="w-3 h-3 bg-gray-400 rounded-full cursor-pointer"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Tia Paola -->
+    <section>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Project Header -->
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tia Paola</h1>
+        <p class="text-lg text-gray-600 mb-8">Logotipo para el canal de twitter Tia Paola</p>        
+            <!-- Main Project Image -->
+        <div class="flex justify-center">
+            <img src="img/logo_tp2.png" alt="Logo Proyecto 1" class="w-1/4 h-1/4 rounded-lg shadow-lg mb-12">
+        </div>
+            <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Proyecto "Tia Paola"</h2>
+                    <p class="text-lg text-gray-600 mb-4">
+                        En enero de 2025 diseñé el logotipo para Tia Paola, un canal 
+                        de twitter especializado en ofrecer tips de apuestas deportivas. 
+                        El diseño buscó reflejar la dinámica y la energía del mundo deportivo, 
+                        combinando elementos visuales modernos y atractivos que captan la atención 
+                        del público objetivo. </p>
+                    <p class="text-lg text-gray-600">
+                        Este proyecto me permitió aplicar conceptos de diseño 
+                        enfocados en la claridad y el impacto visual, adaptando la identidad gráfica 
+                        a la plataforma digital para potenciar la presencia y reconocimiento del canal 
+                        en redes sociales.</p>
+                </div>
+                <div class="">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                    <ul class="text-lg text-gray-600 space-y-2">
+                        <li><span class="font-semibold">Cliente:</span> Tia Paola</li>
+                        <li><span class="font-semibold">Fecha:</span> Enero, 2025</li>
+                        <li><span class="font-semibold">Servicios:</span> Diseño de logo</li>
+                        <li><span class="font-semibold">Herramientas:</span> Adobe Illustrator</li>
+                    </ul>
+                </div>
+              </div> 
+            </div>   
+    </section>
+    <!-- Project Ecologico --> 
+    <section>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+            <!-- Project Header -->
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Regiduría de Ecología</h1>
+        <p class="text-lg text-gray-600 mb-8">Logo de un proyecto ecologico para un gobierno local</p>        
+            <!-- Main Project Image -->
+        <div class="flex justify-center">
+            <img src="img/log_regiduria.png" alt="Logo Proyecto 1" class="w-1/4 h-1/4 rounded-lg shadow-lg mb-12">
+        </div>
+            <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Proyecto Ecologico</h2>
+                    <p class="text-lg text-gray-600 mb-4">
+                        En febrero de 2025, diseñé el logo para un proyecto ecológico gubernamental enfocado en la protección de 
+                        especies endémicas, destacando la iguana y la ceiba. El diseño fusiona elementos orgánicos y formas 
+                        estilizadas para representar la armonía entre fauna y flora local, transmitiendo un mensaje de conservación 
+                        y orgullo regional. </p>
+                    <p class="text-lg text-gray-600">
+                        Este trabajo refleja mi enfoque en el diseño de identidad visual para iniciativas 
+                        ambientales, integrando símbolos autóctonos y una paleta de colores inspirada en la naturaleza para fortalecer 
+                        el reconocimiento y compromiso comunitario. </p>
+                </div>
+                <div class="">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                    <ul class="text-lg text-gray-600 space-y-2">
+                        <li><span class="font-semibold">Cliente:</span> Regiduría de Ecología</li>
+                        <li><span class="font-semibold">Fecha:</span> Febrero, 2025</li>
+                        <li><span class="font-semibold">Servicios:</span> Diseño de logo</li>
+                        <li><span class="font-semibold">Herramientas:</span> Adobe Illustrator</li>
+                    </ul>
+                </div>
+              </div> 
+            </div>   
+    </section>
+
+    <!-- Project Rolian Dev --> 
+    <section>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+            <!-- Project Header -->
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">RoilanDev</h1>
+        <p class="text-lg text-gray-600 mb-8">Logotipo para el portafolio del desarrollador RoilanDev</p>        
+            <!-- Main Project Image -->
+        <div class="flex justify-center">
+            <img src="img/logo_roilan.png" alt="Logo Proyecto 1" class="w-1/5 h-1/5 rounded-lg shadow-lg mb-12">
+        </div>
+            <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Proyecto "RoilanDev"</h2>
+                    <p class="text-lg text-gray-600 mb-4">
+                        En abril de 2025 diseñé el logotipo para el portafolio digital de RoilanDev, 
+                        un desarrollador web. El diseño refleja una identidad propia al incluir elementos tipograficos como las iniciales del cliente, 
+                        utilizando una estética moderna y limpia que transmite confianza y profesionalismo. </p>
+                    <p class="text-lg text-gray-600">
+                        Este proyecto integró principios de diseño 3D, alineándose con el diseño de algunos elementos del portafolio, 
+                        como el uso de cards con un efecto 3D usando propiedades CSS muy atractivas. </p>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                    <ul class="text-lg text-gray-600 space-y-2">
+                        <li><span class="font-semibold">Cliente:</span> RoilanDev </li>
+                        <li><span class="font-semibold">Fecha:</span> Abril, 2025</li>
+                        <li><span class="font-semibold">Servicios:</span> Diseño de logo</li>
+                        <li><span class="font-semibold">Herramientas:</span> Adobe Illustrator</li>
+                    </ul>
+                    <a href="https://roilandev.netlify.app" target="_blank" class="mt-4 text-indigo-600 hover:text-indigo-800 font-semibold mb-8 flex items-center">
+                        Ver portafolio de RoilanDev <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+              </div> 
+            </div>   
+    </section>
+    <!-- Project de Practica -->
+    <section>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Proyectos de Práctica</h1>
+            <p class="text-lg text-gray-600 mb-8">En esta seccion muestro algunos logos diseñados como muestra</p>
+        <div class="grid grid-cols-4 items-center justify-center">
+            <div class="flex justify-center">
+               <img src="img/H_logo.png" alt="logo" class="w-[50%] h-[50%]">
+            </div>
+            <div class="flex justify-center">
+                <img src="img/logo_actu.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+             <div class="flex justify-center">
+                <img src="img/logo_tulipan.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+             <div class="flex justify-center">
+                <img src="img/manzana.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+             <!-- grupo 2 --> 
+             <div class="mt-2 flex justify-center">
+                <img src="img/rene_logo2.png" alt="logo" class="w-[50%] h-[40%]">
+             </div>
+             <div class="mt-2 flex justify-center">
+                <img src="img/logo-rogerseries.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+             <div class="mt-2 flex justify-center">
+                <img src="img/mariposa logo2.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+             <div class="mt-2 flex justify-center">
+                <img src="img/logo_yenis.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+              <!-- grupo 3 -->
+              <div class="mt-4 flex justify-center">
+                <img src="img/logo_GW.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+             <div class="mt-4 flex justify-center">
+                <img src="img/logo_seg1.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+             <div class="mt-4 flex justify-center">
+                <img src="img/logo_red2.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+             <div class="mt-4 flex justify-center">
+                <img src="img/logo_pizeria.png" alt="logo" class="w-[40%] h-[40%]">
+             </div>
+        </div> 
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-indigo-600 text-white mt-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">¡Hagamos algo increíble juntos!</h2>
+            <p class="text-lg mb-8">Contáctame para discutir tu próximo proyecto de branding.</p>
+            <div class="flex justify-center space-x-4 mb-8">
+                <a href="mailto:rogelito870704@gmail.com" class="bg-white text-indigo-600 font-semibold py-3 px-6 rounded-full hover:bg-amber-300 transition">
+                Enviar Email</a>
+                <a href="https://www.behance.net/yourprofile" target="_blank" class="bg-white text-indigo-600 font-semibold py-3 px-6 rounded-full hover:bg-amber-300 transition">
+                Ver Behance</a>
+            </div>
+            <div class="flex justify-center space-x-6">
+                <a href="https://wa.me/5356790025" target="_blank" class="text-white hover:text-green-300 transition">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+                <a href="https://t.me/RogDesigner" target="_blank" class="text-white hover:text-blue-400 transition">
+                    <i class="fab fa-telegram-plane fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com/rogdesin7/" target="_blank" class="text-white hover:text-amber-300 transition">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://pin.it/4AuWveltN" target="_blank" class="text-white hover:text-red-300 transition">
+                    <i class="fab fa-pinterest fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>© 2025 ROG designer. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Hamburger Menu and Carousel -->
+    <script>
+        // Hamburger Menu
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Carousel
+        const carousel = document.getElementById('carousel');
+        const prevBtn = document.getElementById('prev');
+        const nextBtn = document.getElementById('next');
+        const dots = document.querySelectorAll('#dots span');
+        let currentIndex = 0;
+        const totalSlides = carousel.children.length;
+
+        function updateCarousel() {
+            carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('bg-indigo-600', index === currentIndex);
+                dot.classList.toggle('bg-gray-400', index !== currentIndex);
+            });
+        }
+
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            updateCarousel();
+        });
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateCarousel();
+        });
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+            });
+        });
+
+        // Auto-slide every 5 seconds
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateCarousel();
+        }, 5000);
+    </script>
+</body>
+</html>

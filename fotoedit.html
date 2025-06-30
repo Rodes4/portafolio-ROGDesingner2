@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-poppins bg-gray-100 text-gray-800">
+        <!-- Navbar -->
+        <nav class="bg-gray-800 shadow-lg fixed w-full z-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <div class="flex items-center">
+                        <img src="img/logo_rog2.png" alt="LogoMaster Logo" class="h-10 w-10 mr-2">
+                        <h1 class="text-2xl font-bold text-white">ROG designer</h1>
+                    </div>
+                    <!-- Desktop Menu -->
+                    <div class="hidden md:flex items-center space-x-4">
+                        <a href="index.html" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Inicio</a>
+                        <a href="index.html#portfolio" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Portafolio</a>
+                        <a href="sobre mi.html" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Sobre Mí</a>
+                        <a href="#contact" class="text-gray-100 hover:bg-indigo-600 rounded-lg px-3 py-2">Contacto</a>
+                    </div>
+                    <!-- Hamburger Icon -->
+                    <div class="md:hidden flex items-center">
+                        <button id="menu-toggle" class="text-gray-600 hover:text-indigo-600 focus:outline-none">
+                            <i class="fas fa-bars fa-2x"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden bg-gray-800 shadow-lg">
+                <div class="flex flex-col items-center space-y-4 py-4">
+                    <a href="index.html" class="text-gray-100 hover:bg-indigo-600 w-full text-center py-2 text-lg">Inicio</a>
+                    <a href="index.html#portfolio" class="text-gray-100 hover:bg-indigo-600 w-full text-center px-3 py-2 text-lg">Portafolio</a>
+                    <a href="sobre mi.html" class="text-gray-100 hover:bg-indigo-600 w-full text-center px-3 py-2 text-lg">Sobre Mí</a>
+                    <a href="#contact" class="text-gray-100 hover:bg-indigo-600 w-full text-center px-3 py-2 text-lg">Contacto</a>
+                </div>
+            </div>
+        </nav>
+        <section class="pt-20 pb-20 bg-white">
+            <div id="brand1" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <!-- Back Button -->
+                <a href="index.html#portfolio" class="inline-block text-indigo-600 hover:text-indigo-800 font-semibold mb-8 flex items-center">
+                    <i class="fas fa-arrow-left mr-2"></i> Volver al Portafolio
+                </a>
+                <!-- Project Header -->
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">La Combinación</h1>
+            <p class="text-lg text-gray-600 mb-8">Portada del grupo musical ¨La Combinación¨</p>
+                <!-- Main Project Image -->
+            <div class="flex justify-center">
+                <img src="img/portada_la combinacion.jpg" alt="Logo Proyecto 1" class="w-1/3 h-1/3 rounded-lg shadow-lg mb-12">
+            </div>
+                <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Portada de "La Combinación"</h2>
+                        <p class="text-lg text-gray-600 mb-4">
+                            En abril de 2025, diseñé la portada para el canal de YouTube "Redimidos por Jesús" del 
+                            grupo musical de cumbia chaqueña "La Combinación". El diseño fusiona elementos visuales 
+                            representativos de la cultura chaqueña, utilizando colores vibrantes 
+                            y tipografía dinámica para transmitir energía y alegría. </p>                      
+                         <p class="text-lg text-gray-600">
+                            Este proyecto destaca mi capacidad para crear piezas gráficas que conectan con el 
+                            público objetivo y refuerzan la identidad de marca en plataformas digitales </p>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                        <ul class="text-lg text-gray-600 space-y-2">
+                            <li><span class="font-semibold">Cliente:</span> Canal de youtube "Redimidos por Jesús", Eliseo Carlos Gonzáles</li>
+                            <li><span class="font-semibold">Fecha:</span> Abril, 2025</li>
+                            <li><span class="font-semibold">Servicios:</span> Portada promocional</li>
+                            <li><span class="font-semibold">Herramientas:</span> Adobe Photoshop</li>
+                        </ul>
+                    <a href="https://youtube.com/@redimidosporjesus7291?si=_AeaRyrMaZWeC-a4" target="_blank" class="mt-4 text-indigo-600 hover:text-indigo-800 font-semibold mb-8 flex items-center">
+                        Ver canal "Redimidos por Jesús" <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>            
+            </div> 
+
+            <div id="brand1" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+                <!-- Project Header -->
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Mundial de Clubes 2025</h1>
+            <p class="text-lg text-gray-600 mb-8">Portada para el canal de instagram tiapaola.bets</p>
+                <!-- Main Project Image -->
+            <div class="flex justify-center">
+                <img src="img/mundial clubes_p2.jpg" alt="Logo Proyecto 1" class="w-1/3 h-1/3 rounded-lg shadow-lg mb-12">
+            </div>
+                <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Portada del Mundial de Clubes 2025 </h2>
+                        <p class="text-lg text-gray-600 mb-4">
+                            El 11 de junio de 2025 diseñé esta portada para el canal de Instagram tiapaola.bets, un canal que se dedica a dar tips de apuestas deportivas, enfocada 
+                            en el Mundial de Clubes 2025. El diseño destaca la magnitud de esta edición histórica. 
+                            Utilicé elementos visuales modernos y deportivos, integrando la identidad del torneo y los colores vibrantes asociados al fútbol internacional, para captar 
+                            la atención de la audiencia y comunicar la emoción del evento global. </p>                      
+                         <p class="text-lg text-gray-600">
+                            Este proyecto refleja mi habilidad para crear piezas gráficas adaptadas a eventos deportivos internacionales
+                            y plataformas digitales </p>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                        <ul class="text-lg text-gray-600 space-y-2">
+                            <li><span class="font-semibold">Cliente:</span> Canal de instagram, tiapaola.bets</li>
+                            <li><span class="font-semibold">Fecha:</span> Junio, 2025</li>
+                            <li><span class="font-semibold">Servicios:</span> Portada promocional</li>
+                            <li><span class="font-semibold">Herramientas:</span> Adobe Photoshop</li>
+                        </ul>
+                    <a href="https://www.instagram.com/tiapaola.bets?igsh=b3FudGF4czVkdnBq" target="_blank" class="mt-4 text-indigo-600 hover:text-indigo-800 font-semibold mb-8 flex items-center">
+                        Ver canal tiapaola.bets <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>            
+            </div>  
+            <div id="brand1" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+                <!-- Project Header -->
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Montajes</h1>
+            <p class="text-lg text-gray-600 mb-8">Proyectos de practica donde muestro mis mejores fotomontajes</p>
+                <!-- Main Project Image -->
+            <div class="flex justify-center">
+                <img src="img/modelo_fuego.jpg" alt="Logo Proyecto 1" class="w-1/3 h-1/3 rounded-lg shadow-lg mb-12">
+            </div>
+                <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Mujer en llamas </h2>
+                        <p class="text-lg text-gray-600 mb-4">
+                            Esta imagen es un montaje creativo en el que fusiono la fotografía de una mujer con un paisaje de cielo 
+                            al atardecer, cuyas nubes y tonos cálidos se proyectan sobre la piel de su cuello y escote dan la sensacion de quemaduras. El contraste 
+                            entre los colores intensos del atardecer y el tono amarillo de la prenda crea una composición visualmente 
+                            llamativa. El resultado transmite una atmósfera cálida y artística, para destacar mis habilidades en 
+                            manipulación digital y creatividad. 
+                         </p>                      
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                        <ul class="text-lg text-gray-600 space-y-2">
+                            <li><span class="font-semibold">Cliente:</span> Proyecto de práctica</li>
+                            <li><span class="font-semibold">Fecha:</span> 2024</li>
+                            <li><span class="font-semibold">Servicios:</span> Montaje</li>
+                            <li><span class="font-semibold">Herramientas:</span> Adobe Photoshop</li>
+                        </ul>
+                </div>
+            </div>            
+            </div> 
+            <div id="brand1" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+                <!-- Project Header -->
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Montajes</h1>
+            <p class="text-lg text-gray-600 mb-8">Proyectos de practica donde muestro mis mejores fotomontajes</p>
+                <!-- Main Project Image -->
+            <div class="flex justify-center">
+                <img src="img/notre_color1.webp" alt="Logo Proyecto 1" class="w-[80%] h-[80%] rounded-lg shadow-lg mb-12">
+            </div>
+                <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Notre Dame entre las nubes </h2>
+                        <p class="text-lg text-gray-600 mb-4">
+                            Esta imagen es un montaje digital que combina la icónica fachada de la catedral de Notre Dame con un cielo azul 
+                            lleno de nubes y detalles gráficos. Destacan siluetas de mariposas en tonos cálidos y fríos que parecen surgir 
+                            desde la parte inferior y lateral izquierda, aportando dinamismo y un efecto de movimiento. La integración de 
+                            elementos naturales y gráficos sobre la arquitectura clásica resalta la creatividad y habilidad en la 
+                            manipulación de imágenes, ideal para mostrar mi competencias en composición visual
+                         </p>                      
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                        <ul class="text-lg text-gray-600 space-y-2">
+                            <li><span class="font-semibold">Cliente:</span> Proyecto de práctica</li>
+                            <li><span class="font-semibold">Fecha:</span> 2024</li>
+                            <li><span class="font-semibold">Servicios:</span> Montaje</li>
+                            <li><span class="font-semibold">Herramientas:</span> Adobe Photoshop</li>
+                        </ul>
+                </div>
+            </div>            
+            </div> 
+            <div id="brand1" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+                <!-- Project Header -->
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Montajes</h1>
+            <p class="text-lg text-gray-600 mb-8">Proyectos de practica donde muestro mis mejores fotomontajes</p>
+                <!-- Main Project Image -->
+            <div class="flex justify-center">
+                <img src="img/rostro_bio.jpg" alt="Logo Proyecto 1" class="w-[80%] h-[80%] rounded-lg shadow-lg mb-12">
+            </div>
+                <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Bionic Woman </h2>
+                        <p class="text-lg text-gray-600 mb-4">
+                            Este montaje destaca por la integración de un símbolo de biohazard en color blanco sobre un fondo de atardecer 
+                            con tonos rojizos y oscuros, creando una atmósfera dramática y de advertencia. La composición utiliza el perfil 
+                            y cuello de una mujer en primer plano con rasgos roboticos, que aportan un contraste entre lo humano y lo artificial. El diseño 
+                            transmite sensaciones de alerta y modernidad, ideal para demostrar mis habilidades en superposición de elementos 
+                            gráficos y manejo de contrastes.
+                         </p>                      
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                        <ul class="text-lg text-gray-600 space-y-2">
+                            <li><span class="font-semibold">Cliente:</span> Proyecto de práctica</li>
+                            <li><span class="font-semibold">Fecha:</span> 2024</li>
+                            <li><span class="font-semibold">Servicios:</span> Montaje</li>
+                            <li><span class="font-semibold">Herramientas:</span> Adobe Photoshop</li>
+                        </ul>
+                </div>
+            </div>            
+            </div>  
+            <div id="brand1" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+                <!-- Project Header -->
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Montajes</h1>
+            <p class="text-lg text-gray-600 mb-8">Proyectos de practica donde muestro mis mejores fotomontajes</p>
+                <!-- Main Project Image -->
+            <div class="flex justify-center">
+                <img src="img/woman_arc.jpg" alt="Logo Proyecto 1" class="w-[80%] h-[80%] rounded-lg shadow-lg mb-12">
+            </div>
+                <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Woman Arc </h2>
+                        <p class="text-lg text-gray-600 mb-4">
+                            Esta imagen es un montaje digital que combina un retrato de belleza femenino con elementos abstractos y 
+                            simbólicos. La composición se centra en el rostro de una mujer con ojos verdes intensos, realzados por un 
+                            sutil toque de color que simula un "maquillaje" de tipo fractal o etéreo en su mejilla. El fondo es un arcoíris 
+                            vibrante y saturado, que evoca energía y diversidad. Un logo circular en la esquina inferior izquierda, con la 
+                            letra "W" y el texto "WOMAN ARC", integra el diseño en una posible marca o proyecto. El contraste entre la piel 
+                            humana y los colores intensos, junto con la textura abstracta, crea una pieza visual impactante y moderna, 
+                            ideal para explorar temas de identidad, belleza digital.
+                         </p>                      
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                        <ul class="text-lg text-gray-600 space-y-2">
+                            <li><span class="font-semibold">Cliente:</span> Proyecto de práctica</li>
+                            <li><span class="font-semibold">Fecha:</span> 2024</li>
+                            <li><span class="font-semibold">Servicios:</span> Montaje</li>
+                            <li><span class="font-semibold">Herramientas:</span> Adobe Photoshop</li>
+                        </ul>
+                </div>
+            </div>            
+            </div>
+            <div id="brand1" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+                <!-- Project Header -->
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Montajes</h1>
+            <p class="text-lg text-gray-600 mb-8">Proyectos de practica donde muestro mis mejores fotomontajes</p>
+                <!-- Main Project Image -->
+            <div class="flex justify-center">
+                <img src="img/portada_angelina joli.webp" alt="Logo Proyecto 1" class="w-[80%] h-[80%] rounded-lg shadow-lg mb-12">
+            </div>
+                <!-- Project Description -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">La guepardo </h2>
+                        <p class="text-lg text-gray-600 mb-4">
+                            Esta imagen es un montaje digital, que fusiona la belleza humana con elementos de la naturaleza salvaje. 
+                            La figura central es una mujer con cabello castaño suelto y una mirada 
+                            intensa, con ojos realzados en tonos ámbar o dorados, evocando una conexión felina. Destacan en su rostro 
+                            manchas de patrón de leopardo aplicadas digitalmente, junto con una nariz y un labio superior sutilmente 
+                            modificados para simular rasgos animales, acentuando la temática. El fondo oscuro permite que la figura y los 
+                            detalles de leopardo sean el foco principal. Esta pieza visual juega con la dualidad entre lo humano y lo animal,
+                            transmitiendo una sensación de fuerza, misterio e instinto primordial, lo que la hace adecuada para conceptos 
+                            de moda, belleza o publicaciones con temáticas audaces y transformadoras.
+                         </p>                      
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Detalles</h2>
+                        <ul class="text-lg text-gray-600 space-y-2">
+                            <li><span class="font-semibold">Cliente:</span> Proyecto de práctica</li>
+                            <li><span class="font-semibold">Fecha:</span> 2025</li>
+                            <li><span class="font-semibold">Servicios:</span> Montaje</li>
+                            <li><span class="font-semibold">Herramientas:</span> Adobe Photoshop</li>
+                        </ul>
+                </div>
+            </div>            
+            </div>        
+        </section>
+            <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-indigo-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">¡Hagamos algo increíble juntos!</h2>
+                <p class="text-lg mb-8">Contáctame para discutir tu próximo proyecto de branding.</p>
+                <div class="flex justify-center space-x-4 mb-8">
+                    <a href="mailto:rogelito870704@gmail.com" class="bg-white text-indigo-600 font-semibold py-3 px-6 rounded-full hover:bg-amber-300 transition">
+                    Enviar Email</a>
+                    <a href="https://www.behance.net/yourprofile" target="_blank" class="bg-white text-indigo-600 font-semibold py-3 px-6 rounded-full hover:bg-amber-300 transition">
+                    Ver Behance</a>
+                </div>
+                <div class="flex justify-center space-x-6">
+                    <a href="https://wa.me/5356790025" target="_blank" class="text-white hover:text-green-300 transition">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+                    <a href="https://t.me/RogDesigner" target="_blank" class="text-white hover:text-blue-400 transition">
+                        <i class="fab fa-telegram-plane fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rogdesin7/" target="_blank" class="text-white hover:text-amber-300 transition">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://pin.it/4AuWveltN" target="_blank" class="text-white hover:text-red-300 transition">
+                        <i class="fab fa-pinterest fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+            <!-- Footer -->
+            <footer class="bg-gray-800 text-white py-6">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <p>© 2025 ROG designer. Todos los derechos reservados.</p>
+                </div>
+            </footer>
+                <!-- JavaScript for Hamburger Menu and Carousel -->
+        <script>
+            // Hamburger Menu
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+    
+        </script>
+    
+</body>
+</html>
